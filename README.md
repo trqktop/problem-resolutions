@@ -33,7 +33,7 @@ console.log(foo, '             : FOO') // отражает переназнач�
 ```
 ____
 # 3. showPrimes
-
+```js
 function showPrimes(n) {
     nextPrime: for (let i = 2; i < n; i++) { // цикл для перебора от 2 до n  обозначаем  меткой nextPrimes ,чтобы пропускать итерации
   
@@ -45,5 +45,5 @@ function showPrimes(n) {
     }
   }
 showPrimes(100)
-
+```
 ____
